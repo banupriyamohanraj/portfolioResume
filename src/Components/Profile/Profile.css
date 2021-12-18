@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&family=Luxurious+Script&family=Roboto+Slab:wght@900&family=Roboto+Slab:wght@600&display=swap");
+
+.Profile__container {
+  margin: 0 !important;
+  /* background-color: rgb(0, 0, 0); 
+  background-color: rgba(0, 0, 0, 0.4); */
+  background-color: black;
+  height: 100vh;
+  color: white;
+  display: flexbox;
+  /* position: fixed; */
+  background-size: 30%;
+  background-position-x: 4rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  /* transform: perspective(1000px) rotateY(-5deg); */
+  /* transform: rotateY(360deg); */
+
+  background-blend-mode: luminosity;
+  box-shadow: 0 0 8px 8px black inset;
+  background-image: linear-gradient(rgba(17, 16, 16, 0.527), rgba(7, 7, 7, 0.5)),
+    url("../Image/pic.jpeg");
+  /* filter: blur(2px);
+  -webkit-filter: blur(2px); */
+}
+
+/* .col-12 > h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  font-size: 6rem;
+  padding-left: 40rem;
+  padding-top: 5rem;
+} */
+
+.col-12 > h1 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 100;
+  font-size: 6rem;
+  padding-top: 7rem;
+  /* padding-left: 40rem; */
+  text-align: center;
+}
+
+.col-12 > h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100;
+  font-size: 2rem;
+  /* padding-left: 40rem; */
+  text-align: center;
+  word-wrap: break-word;
+}
+.col-12 > h4 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 100 !important;
+  font-size: 2rem;
+  /* padding-left: 40rem;
+  padding-top: 2rem; */
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.col-12 > h5 {
+  /* padding-left: 40rem; */
+  text-align: center;
+}
+
+.resumeButton {
+  /* padding-left: 40rem; */
+  color: white !important;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#name {
+  color: orangered;
+  font-size: 4rem !important;
+}
+
+#Initial {
+  color: orangered;
+  font-size: 2rem !important;
+  text-align: center !important;
+  /* padding-left: 40rem; */
+  justify-content: center;
+}
+
+.button__container {
+  font-family: "Roboto Slab", serif;
+  /* padding-left: 40rem;
+  padding-top: 2rem; */
+  text-align: center;
+  align-items: center;
+}
+
+#resumebutton {
+  color: white !important;
+  border-color: orangered;
+  text-decoration: none !important;
+  background-color: black;
+}
+
+#resumebutton:hover {
+  background-color: orangered;
+  color: black !important;
+}

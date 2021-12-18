@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
+
+.Project__Container {
+  font-family: "Nanum Gothic", sans-serif !important;
+  background-color: black;
+  color: white;
+  margin: 0 !important;
+}
+.projectrow {
+  padding: 4rem;
+}
+
+/* .projectcard {
+  padding: 0 1rem 1rem 1rem;
+  text-align: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.projectcard :hover {
+  box-shadow: 2px 2px 2px 2px black;
+  transform: scale(1.1);
+} */
+
+.projectcard {
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-align: center;
+  object-fit: cover;
+  /* width: 18rem; */
+}
+
+.projectcard:hover {
+  box-shadow: 2px 6px 6px 2px black;
+  transform: scale(1.1);
+}
+
+.diagonal-box {
+  background-image: linear-gradient(90deg, #000000, orangered);
+  transform: skewY(5deg);
+  min-height: 1000px;
+  /* width: 50rem; */
+  background-color: black;
+  color: white;
+}
+.content {
+  margin: 0 auto;
+  transform: skewY(-5deg);
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.content > h1 {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  padding-bottom: 0 !important;
+  color: orangered;
+}
+
+#linkbutton {
+  color: white;
+  border-color: orangered;
+}
+
+#linkbutton:hover {
+  background-color: orangered;
+  color: black;
+}
