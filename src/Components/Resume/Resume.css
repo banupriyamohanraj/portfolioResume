@@ -6,7 +6,7 @@
   transform: skewY(5deg);
   min-height: 1000px;
   /* width: 50rem; */
-  background-color: black;
+  background-color: orangered !important;
   color: white;
   margin: 0 !important;
 }

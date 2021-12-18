@@ -9,20 +9,21 @@
   color: white;
   display: flexbox;
   /* position: fixed; */
-  background-size: 30%;
-  background-position-x: 4rem;
-  background-attachment: fixed;
+  background-size: 100%;
+  /* background-position-x: 4rem; */
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
+  background-image: url("../Image/Updated\ Background.jpg");
   /* -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover; */
   /* transform: perspective(1000px) rotateY(-5deg); */
   /* transform: rotateY(360deg); */
 
-  background-blend-mode: luminosity;
-  box-shadow: 0 0 8px 8px black inset;
-  background-image: linear-gradient(rgba(17, 16, 16, 0.527), rgba(7, 7, 7, 0.5)),
-    url("../Image/pic.jpeg");
+  /* background-blend-mode: luminosity;
+  box-shadow: 0 0 8px 8px black inset; */
+  /* background-image: linear-gradient(rgba(17, 16, 16, 0.527), rgba(7, 7, 7, 0.5)),
+    url("../Image/Background.jpg"); */
   /* filter: blur(2px);
   -webkit-filter: blur(2px); */
 }

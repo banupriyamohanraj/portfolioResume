@@ -22,14 +22,14 @@ function Profile() {
       <h4>
       <Typewriter
   options={{
-    strings: ['Full stack developer', 'MERN stack developer','Web developer','Photographer'],
+    strings: ['Full Stack Developer', 'MERN Stack Developer','Web Developer','Photographer'],
     autoStart: true,
     loop: true,
   }}
 />
       </h4>
       <br/>
-      <h5 >passionate about creating web applications.
+      <h5 >Passionate about creating Web applications.
       {/* {
               transitions(({ opacity }, item) =>
                 item ? (<animated.div
