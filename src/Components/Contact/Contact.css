@@ -19,6 +19,13 @@
   color: orangered;
 }
 
+@media (max-width: 767px) {
+  .Contactcontent__Title > h1 {
+    padding: 2rem;
+    text-align: center;
+    color: orangered;
+  }
+}
 .Contactcontent__Row {
   padding-left: 5rem;
 }

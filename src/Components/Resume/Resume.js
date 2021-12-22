@@ -10,7 +10,7 @@ function Resume() {
           <h1>RESUME</h1>
          
           <div className="container-fluid">
-            <div className="row">
+            <div className="row m-0">
               <div className="col-md-1 col-lg-1 col-sm-1 titleCard">
                 <h1 id="title">SUMMARY</h1>
               </div>
@@ -18,15 +18,15 @@ function Resume() {
                 <div className="card">
                   <div className="card-body">
                     <h2>BANU PRIYA MOHANRAJ</h2>
-                    <h6>Chennai,India</h6>
-                    <h6> (91)7358383981</h6>
-                    <h6>banupriyamohanrajoffl@gmail.com</h6>
+                    <h5>Chennai,India</h5>
+                    <h5> (91)7358383981</h5>
+                    <h5>banupriyamohanrajoffl@gmail.com</h5>
                   </div>
                 </div>
                 <br />
                 <div className="card">
                   <div className="card-body">
-                    <p>Education:</p>
+                    <p>EDUCATION:</p>
                     <p style={{ color: "orangered" }}>
                       Msc Information system Management{" "}
                       <span style={{ float: "right" }}>01/2019-06/2020</span>

@@ -38,3 +38,11 @@
 .Skillcontainer_skillicon > a {
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  .Skillcontainer_skillset > h1 {
+    padding: 2rem;
+    text-align: center;
+    color: orangered;
+  }
+}

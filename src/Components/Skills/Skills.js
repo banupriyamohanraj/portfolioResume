@@ -10,7 +10,7 @@ function Skills() {
         {" "}
         <h1>SKILLS</h1>
      
-        <div className="row Skillcontainer_skillicon  ">
+        <div className="row Skillcontainer_skillicon  m-0">
           <div className="skill">
             <img
               src="https://img.icons8.com/color/79/000000/html-5--v1.png"
@@ -49,7 +49,7 @@ function Skills() {
           <p>Netlify</p>
           </div>
           </div>
-          <div className="row Skillcontainer_skillicon1 ">
+          <div className="row Skillcontainer_skillicon1 m-0">
 
           <div className="skill">
             <img
@@ -85,7 +85,7 @@ function Skills() {
             <img src="https://img.icons8.com/color/79/000000/git.png" alt="" />
             <p>Git</p>
           </div>
-          <div className="skill"></div>
+         
         </div>
   
 

@@ -60,6 +60,7 @@
 #linkbutton {
   color: white;
   border-color: orangered;
+  margin: 5px;
 }
 
 #linkbutton:hover {

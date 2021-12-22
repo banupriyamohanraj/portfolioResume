@@ -4,7 +4,7 @@
 .diagonal-box {
   background-image: linear-gradient(90deg, #000000, orangered);
   transform: skewY(5deg);
-  min-height: 1000px;
+  min-height: 700px;
   /* width: 50rem; */
   background-color: orangered !important;
   color: white;
@@ -45,10 +45,10 @@
 }
 
 .titleCard {
-  padding-top: 19rem;
+  margin-top: 25rem;
 }
 .titleContentCard {
-  padding-top: 1rem;
+  margin-top: 7rem;
 }
 
 .card {
@@ -61,4 +61,24 @@
 .bulletin {
   list-style-type: square;
   /* color: orangered; */
+}
+
+@media (max-width: 767px) {
+  #title {
+    transform: rotate(360deg);
+    padding-top: 0 !important;
+    text-align: center;
+  }
+  .col-1 {
+    margin-top: 0 !important;
+  }
+  .titleCard {
+    padding-top: 3rem;
+    text-align: center;
+  }
+  .content > h1 {
+    padding: 2rem;
+    text-align: center;
+    color: orangered;
+  }
 }

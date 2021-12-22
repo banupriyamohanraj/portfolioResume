@@ -23,7 +23,7 @@ function Navbar() {
                 <Link to="projects" smooth={true} duration={1000}  offset={-100}>
                    <h4> PROJECTS</h4>
                 </Link>
-                <Link to="contact" smooth={true} duration={500}  offset={-100}>
+                <Link to="contact" smooth={true} duration={1000}  offset={-100}>
                    <h4> CONTACT</h4>
                 </Link>
             

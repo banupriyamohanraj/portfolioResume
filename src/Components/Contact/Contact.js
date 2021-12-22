@@ -47,7 +47,7 @@ function Contact() {
       </div>
     
         <form onSubmit={submit}>
-          <div className="row Contactcontent__Row">
+          <div className="row Contactcontent__Row m-0">
             <div className="col-6">
               <div class="form-group ">
                 <label for="Forname">Your Name</label>
@@ -55,7 +55,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="row Contactcontent__Row">
+          <div className="row Contactcontent__Row m-0">
             <div className="col-6">
               <div class="form-group ">
               <label for="email">Your Email</label>
@@ -63,7 +63,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="row Contactcontent__Row">
+          <div className="row Contactcontent__Row m-0">
             <div className="col-6">
               <div class="form-group ">
               <label for="message">Your Message</label>
@@ -71,7 +71,7 @@ function Contact() {
               </div>
             </div>
           </div>
-          <div className="row Contactcontent__RowButton" >
+          <div className="row Contactcontent__RowButton m-0" >
           <div className="col-6">
             <div class="form-group">
               <button class="btn btn-outline-dark" type="submit" value="Send" id="contactbutton" >Send</button>

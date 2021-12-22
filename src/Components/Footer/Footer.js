@@ -6,7 +6,7 @@ function Footer() {
   return (
     <div className="Footer__Container">
         
-        <div className="row">
+        <div className="row m-0">
     <div className="col-12">
     <div className='button__container'>
   
@@ -21,7 +21,7 @@ function Footer() {
                   </a>
                
                   </div>
-    <p>Designed by Banu Priya Mohanraj © 2021 </p>
+    <p className="pt-2">Designed by Banu Priya Mohanraj © 2021 </p>
     
       </div>
       </div>

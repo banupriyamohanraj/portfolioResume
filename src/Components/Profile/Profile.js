@@ -9,11 +9,11 @@ import Typewriter from 'typewriter-effect';
 function Profile() {
 
  
-    const pdf = "https://drive.google.com/file/d/1B0p_Iu1sGKxRuaSAAIZ7AALLt8Etj1XK/view?usp=sharing"
+    const pdf = "https://drive.google.com/file/d/15vtUrZrpXcTh9jfs8cd5ebHDMsYx9VnK/view?usp=sharing"
   return (
       <Element name="about">
     <div className='container-fluid Profile__container'>
-        <div className='row'>
+        <div className='row m-0'>
         <Fade right>
         <div className='col-12'>
         <h1>Hello,</h1>
