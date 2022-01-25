@@ -3,8 +3,9 @@ import { Element } from "react-scroll";
 import React from "react";
 import Cloud from "../Image/cloud.png";
 import Ecomm from "../Image/E-comm.png";
-
+import Recipe from "../Image/receipe.png"
 import url from "../Image/urlshortener.png";
+import Videochat from "../Image/videochat.png"
 import invoice from "../Image/Invoicegenerator.png";
 
 function Project() {
@@ -33,13 +34,29 @@ function Project() {
       githublinkbe : "https://github.com/banupriyamohanraj/invoice-backend",
       path: "/invoice",
     },
+    {
+      url: "https://recipe-task-promise.netlify.app/",
+      title: "Recipe app",
+      img: Recipe,
+      githublinkfe: "https://github.com/banupriyamohanraj/recipe-task",
 
+      path: "/invoice",
+      
+    },
     {
       url: "https://urlshortener-fe.netlify.app",
       title: "url shortener app",
       img: url,
       githublinkfe: "https://github.com/banupriyamohanraj/urlShortener-FE",
       githublinkbe: "https://github.com/banupriyamohanraj/urlShortener-BE",
+      path: "/url",
+    },
+    {
+      url: "https://web-videochat-app.netlify.app/",
+      title: "videochat app",
+      img: Videochat,
+      githublinkfe: "https://github.com/banupriyamohanraj/videochatapp-be",
+      githublinkbe: "https://github.com/banupriyamohanraj/videochatapp-be",
       path: "/url",
     },
     
