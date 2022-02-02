@@ -4,7 +4,7 @@ import React from "react";
 import Cloud from "../Image/cloud.png";
 import Ecomm from "../Image/E-comm.png";
 import Recipe from "../Image/receipe.png"
-import url from "../Image/urlshortener.png";
+// import url from "../Image/urlshortener.png";
 import Videochat from "../Image/videochat.png"
 import invoice from "../Image/Invoicegenerator.png";
 
@@ -43,19 +43,12 @@ function Project() {
       path: "/invoice",
       
     },
+   
     {
-      url: "https://urlshortener-fe.netlify.app",
-      title: "url shortener app",
-      img: url,
-      githublinkfe: "https://github.com/banupriyamohanraj/urlShortener-FE",
-      githublinkbe: "https://github.com/banupriyamohanraj/urlShortener-BE",
-      path: "/url",
-    },
-    {
-      url: "https://web-videochat-app.netlify.app/",
+      url: "https://videochatapp-fe.netlify.app/",
       title: "videochat app",
       img: Videochat,
-      githublinkfe: "https://github.com/banupriyamohanraj/videochatapp-be",
+      githublinkfe: "https://github.com/banupriyamohanraj/videochatapp-fe",
       githublinkbe: "https://github.com/banupriyamohanraj/videochatapp-be",
       path: "/url",
     },
@@ -70,8 +63,17 @@ function Project() {
             <h1>PROJECTS</h1>
 
             <div className="container-fluid">
+              <div className="row demoaccount m-0 p-0 justify-content-center">
+                <div className="card  shadow p-0">
+                <div class="card-body">
+                <h5 class="card-title"><span style={{color:"orangered"}}>Demo Account :</span> banupriyamohanrajoffl@gmail.com <span style={{color:"orangered"}}>Password :</span> banu </h5>
+                  </div>
+                </div>
+              </div>
               <div className="row projectrow m-0">
-                {Project_Data.map((obj) => {
+
+                {
+                Project_Data.map((obj) => {
                   return (
                     <div className="col-md-2 col-lg-4 col-sm-1 ">
                       <div class="col  mb-4">
@@ -81,13 +83,16 @@ function Project() {
                             <h5 class="card-title">{obj.title}</h5>
                             <br />
                             <p class="card-text ">
-                              <a
+                            {obj.githublinkfe ?   <a
                                 href={obj.githublinkfe}
                                 target="_blank"
                                 rel="noreferrer"
                                 style={{ color: "white" }}
                               >
-                                <button
+                              
+                             
+
+                              <button
                                   type="button"
                                   className="btn btn-outline-dark "
                                   id="linkbutton"
@@ -98,8 +103,8 @@ function Project() {
                                     aria-hidden="true"
                                   ></i>
                                 </button>
-                              </a>
-                              <a
+                              </a> : null}
+                             { obj.githublinkbe ?  <a
                                 href={obj.githublinkbe}
                                 target="_blank"
                                 rel="noreferrer"
@@ -116,10 +121,9 @@ function Project() {
                                     aria-hidden="true"
                                   ></i>
                                 </button>
-                              </a>
+                              </a> : null}
                           
-                              <a
-                                href={obj.url}
+                              <a href={obj.url}
                                 target="_blank"
                                 rel="noreferrer"
                                 style={{ color: "white" }}
@@ -139,14 +143,7 @@ function Project() {
                       </div>
                     </div>
                   );
-                  //    return   <div className="col-4  ">
-                  //    <div className="card projectcard ml-4 mb-3 shadow  mb-4 bg-black rounded">
-                  //    <img src={obj.img} alt={obj.title}></img>
-                  //      <div className="card-body p-1">
-                  //         <p style={{textAlign:"center"}}>{obj.title}</p>
-                  //      </div>
-                  //    </div>
-                  //  </div>
+               
                 })}
               </div>
             </div>
