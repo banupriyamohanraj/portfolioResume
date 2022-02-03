@@ -27,7 +27,6 @@
   cursor: pointer;
   text-align: center;
   object-fit: cover;
-  /* width: 18rem; */
 }
 
 .projectcard:hover {
@@ -60,7 +59,9 @@
 #linkbutton {
   color: white;
   border-color: orangered;
-  margin: 5px;
+  margin: 2px;
+  font-size: 13px;
+  justify-content: center;
 }
 
 #linkbutton:hover {

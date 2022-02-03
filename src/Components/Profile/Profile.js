@@ -7,9 +7,9 @@ import { Element } from 'react-scroll'
 import Typewriter from 'typewriter-effect';
 
 function Profile() {
-
+ 
   
-    const pdf = 'https://drive.google.com/file/d/1HTNDIWeuaFlk9sTeW3LnngjWuNpz8lEw/view?usp=sharing'
+    const pdf = 'https://drive.google.com/file/d/1NLWZhWz1gA5VUZDqy_H03jmmFW12Dkar/view?usp=sharing'
   return (
       <Element name="about">
     <div className='container-fluid Profile__container'>
