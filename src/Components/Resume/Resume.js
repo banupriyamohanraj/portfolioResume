@@ -26,19 +26,21 @@ function Resume() {
                 <br />
                 <div className="card">
                   <div className="card-body">
-                    <p>EDUCATION:</p>
+                    <p>EDUCATION</p>
                     <p style={{ color: "orangered" }}>
                       Msc Information system Management{" "}
                       <span style={{ float: "right" }}>01/2019-06/2020</span>
                     </p>
-                    <p>De Montfort University,United Kingdom</p>
-                    <p>CGPA - 6.5</p>
+                    <p>De Montfort University</p>
+                    <p>Leicester,United Kingdom</p>
+                    {/* <p>CGPA - 7</p> */}
                     <p style={{ color: "orangered" }}>
                       B.Tech Information Technology{" "}
                       <span style={{ float: "right" }}>08/2012-04/2016</span>
                     </p>
-                    <p>Sri Venkateswara college of Engineering,Chennai</p>
-                    <p>CGPA - 6.5</p>
+                    <p>Sri Venkateswara college of Engineering</p>
+                    <p>Chennai,India</p>
+                    {/* <p>CGPA - 6.5</p> */}
                   </div>
                 </div>
               </div>
@@ -48,56 +50,40 @@ function Resume() {
               <div className="col-md-3 col-lg-5 col-sm-1 titleContentCard">
                 <div className="card">
                   <div className="card-body">
-                    {/* <p style={{ color: "orangered" }}>
-                      SYSTEM ADMIN
-                      <span style={{ float: "right" }}>10/2019-06/2020</span>
+                    <p style={{ color: "orangered" }}>
+                        FINANCIAL PLANNING MANAGER
+                       
+                      <span style={{ float: "right" }}>03/2020-08/2022</span>
                     </p>
-                    <p>A and C Fuels Ltd,United Kingdom</p>
+                    <p>Indigra Global Enterprises, Chennai</p>
                     <ul className="bulletin">
                       <li>
-                        Involved in designing,updating and supporting the
-                        company's computer systems.
+                        Provide financial support to business units.co-ordinate and execute monthly or annual forecast analysis process with assigned business units.
                       </li>
                       <li>
-                        Performing daily system monitoring,verify the integrity
-                        and availability of all hardware server resources.
+                        Proactively resolve MIS Issues impacting performance.co-ordinate and execute the review of monthly reporting and results process with assigned business units.
                       </li>
-                    </ul> */}
+                    </ul>
                     
 
                     <p style={{ color: "orangered" }}>
                       AUTOMATION TESTER
                       <span style={{ float: "right" }}>12/2016-02/2018</span>
                     </p>
-                    <p>Accenture Solutions Pvt Ltd,Chennai</p>
+                    <p>Accenture Solutions Pvt Ltd, Chennai</p>
                     <ul className="bulletin">
                       <li>
-                      Domain: Functional Testing, Business Unit: HC
+                     Created accurate and efficient test scripts in Selenium, UFT to manage automated testing of certain products and features.
                       </li>
                       <li>
-                      Collaborate with the clients for gathering requirements for the application testing.
-                      </li>
-                      <li>
-                      Created accurate and efficient test scripts in Selenium, UFT to manage automated testing of certain products and features.
-                      </li>
-                      <li>
-                      Analysing the application and testing the application through automation.
-                      </li>
-                      <li>
-                      Performing test execution in automation testing tools.
-
-                      </li>
-                      <li>
-                      Analysing test results, capturing overall test coverage and efficiency, comparing with expected business SLA
+                      Analysing the application and testing the application through automation.Performing test execution in automation testing tools.     
                       </li>
                       <li>
                       Identified and tracked defects with HP ALM and supported developers in resolving problems by completing additional tests.
                       </li>
-                      <li>
-                      Effectively interacted with Developing and Support departments regarding software defects, worked closely to develop innovative solutions.
-                      </li>
+                      
                     </ul>
-                    <br/>
+                  
                   
                   </div>
                 </div>
