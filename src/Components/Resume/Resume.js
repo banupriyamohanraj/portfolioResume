@@ -20,7 +20,7 @@ function Resume() {
                     <div className="card-body">
                       <h2>BANU PRIYA MOHANRAJ</h2>
                       <h5>Chennai,India</h5>
-                      <h5> (91)7358383981</h5>
+                      <h5> (91)8667732814</h5>
                       <h5>banupriyamohanrajoffl@gmail.com</h5>
                     </div>
                   </div>
@@ -58,13 +58,24 @@ function Resume() {
                       <p>Vanilla Networks Pvt Ltd</p>
                       <ul className="bulletin">
                         <li>
-                          Developed and maintained React-based web applications,
-                          ensuring high performance and responsiveness. gathered
-                          requirements, designed user interfaces, and
-                          implemented features.
+                          Developed and managed an engaging platform where users
+                          watch mystery videos and visit the website or mobile
+                          app to solve the mysteries and also have developed
+                          business task management applications
+                        </li>
+                        <li>
+                          Utilized React.js, Next.js, GraphQL and Tailwind CSS
+                          to enhance project performance. Utilized Redux and
+                          React Context for efficient state management.
+                        </li>
+                        <li>
+                          Collaborated closely with the client to identify and
+                          meet their unique requirements and successfully
+                          delivered project goals, earning the client's
+                          confidence
                         </li>
                       </ul>
-                      <p style={{ color: "orangered" }}>
+                      {/* <p style={{ color: "orangered" }}>
                         FINANCIAL PLANNING MANAGER
                         <span style={{ float: "right" }}>03/2021-08/2022</span>
                       </p>
@@ -76,7 +87,7 @@ function Resume() {
                           forecast analysis process with assigned business
                           units.
                         </li>
-                      </ul>
+                      </ul> */}
 
                       <p style={{ color: "orangered" }}>
                         ASSOCIATE SOFTWARE ENGINEER
