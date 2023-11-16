@@ -51,21 +51,6 @@ function Project() {
 
       path: "/receipe",
     },
-    {
-      url: "https://urlshortener-fe.netlify.app/",
-      title: "URL Shortener",
-      img: urlShort,
-      githublinkfe: "https://github.com/banupriyamohanraj/urlShortener-FE",
-      path: "url",
-    },
-    {
-      url: "https://cloudapp-mern.netlify.app/",
-      title: "Cloud app",
-      img: Cloud,
-      githublinkfe: "https://github.com/banupriyamohanraj/cloudapp",
-      githublinkbe: "https://github.com/banupriyamohanraj/invoice-backend",
-      path: "/invoice",
-    },
   ];
 
   return (
@@ -92,10 +77,10 @@ function Project() {
                 {Project_Data.map((obj) => {
                   return (
                     <div className="col-md-1 col-lg-3 col-sm-1 mb-4 d-flex align-items-stretch">
-                      <div class="card  projectcard shadow">
+                      <div class="card  projectcard shadow ">
                         <img src={obj.img} class="card-img-top" alt="..." />
                         <div class="card-body">
-                          <h5 class="card-title">{obj.title}</h5>
+                          <h5 class="card-title mb-0">{obj.title}</h5>
                           <br />
                           <p class="card-text ">
                             {obj.githublinkfe ? (
@@ -107,7 +92,7 @@ function Project() {
                               >
                                 <button
                                   type="button"
-                                  className="btn btn-outline-dark "
+                                  className="btn btn-outline-dark btn-sm"
                                   id="linkbutton"
                                 >
                                   Frontend{" "}
@@ -127,7 +112,7 @@ function Project() {
                               >
                                 <button
                                   type="button"
-                                  className="btn btn-outline-dark"
+                                  className="btn btn-outline-dark btn-sm"
                                   id="linkbutton"
                                 >
                                   Backend{" "}
@@ -147,7 +132,7 @@ function Project() {
                             >
                               <button
                                 type="button"
-                                className="btn btn-outline-dark"
+                                className="btn btn-outline-dark btn-sm"
                                 id="linkbutton"
                               >
                                 Demo{" "}

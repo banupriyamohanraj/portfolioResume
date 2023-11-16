@@ -1,9 +1,10 @@
 import "./Contact.css";
 
 import { useState } from "react";
-// import { init } from 'emailjs-com';
-// import emailjs from 'emailjs-com';
+import { init } from "emailjs-com";
+import emailjs from "emailjs-com";
 import { Element } from "react-scroll";
+import { toast } from "react-toastify";
 
 import React from "react";
 
@@ -12,28 +13,52 @@ function Contact() {
   let [email, setemail] = useState("");
   let [message, setmessage] = useState("");
 
-  let submit = (e) => {
-    e.preventDefault();
-    // console.log(name,email,message)
-    // console.log(process.env.REACT_APP_USER_ID)
-    // console.log(process.env.REACT_APP_SERVICE_ID)
-    // console.log(process.env.REACT_APP_TEMPLATE_ID)
-
-    // const templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message:message
-    // };
-
-    // init(process.env.REACT_APP_USER_ID)
-    // emailjs.send(process.env.REACT_APP_SERVICE_ID,process.env.REACT_APP_TEMPLATE_ID, templateParams, process.env.REACT_APP_USER_ID)
-    //   .then(function (response) {
-    //     console.log('SUCCESS!', response.status, response.text);
-    //     alert("Message sent", response.text);
-    //   }, function (error) {
-    //     console.log('FAILED...', error);
-    //   });
+  const toastOptions = {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
   };
+
+  async function submit(e) {
+    e.preventDefault();
+
+    try {
+      const templateParams = {
+        name: name,
+        email: email,
+        message: message,
+      };
+
+      init(process.env.REACT_APP_USER_ID);
+      emailjs
+        .send(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          templateParams,
+          process.env.REACT_APP_USER_ID
+        )
+        .then(
+          function (response) {
+            console.log("SUCCESS!", response.status, response.text);
+            // alert("Message sent", response.text);
+            toast.success("Message sent", toastOptions);
+          },
+          function (error) {
+            console.log("FAILED...", error);
+          }
+        );
+      setname("");
+      setemail("");
+      setmessage("");
+    } catch (error) {
+      toast.error("something went wrong, try again later !!", toastOptions);
+    }
+  }
 
   return (
     <Element name="contact">
