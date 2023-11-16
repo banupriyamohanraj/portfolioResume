@@ -1,96 +1,76 @@
 import "./Skills.css";
 import React from "react";
 
-import { Element } from 'react-scroll'
+import { Element } from "react-scroll";
+import { FaHtml5, FaCss3, FaReact, FaNodeJs } from "react-icons/fa";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiMariadb } from "react-icons/si";
+import {
+  BiLogoTypescript,
+  BiLogoMongodb,
+  BiLogoTailwindCss,
+  BiLogoGraphql,
+} from "react-icons/bi";
+import { DiMysql } from "react-icons/di";
 
 function Skills() {
-  return (<Element name="skills">
-    <div className="Skillcontainer_skillset">
-    
+  return (
+    <Element name="skills">
+      <div className="Skillcontainer_skillset">
         {" "}
         <h1>SKILLS</h1>
-     
         <div className="row Skillcontainer_skillicon  m-0">
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/html-5--v1.png"
-              alt=""
-            />
+            <FaHtml5 size={70} />
             <p>HTML</p>
           </div>
           <div className="skill">
-            <img src="https://img.icons8.com/color/79/000000/css3.png" alt="" />
+            <FaCss3 size={70} />
             <p>CSS</p>
           </div>
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/javascript--v2.png"
-              alt=""
-            />
+            <RiJavascriptFill size={70} />
             <p>javascript</p>
-          </div>
-          <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/c-plus-plus-logo.png"
-              alt=""
-            />
-            <p>C++</p>
           </div>
 
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/react-native.png"
-              alt=""
-            />
+            <FaReact size={70} />
             <p>React</p>
           </div>
           <div className="skill">
-          <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/79/000000/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt=""/>
-          <p>Netlify</p>
+            <BiLogoTypescript size={70} />
+            <p>Typescript</p>
           </div>
-          </div>
-          <div className="row Skillcontainer_skillicon1 m-0">
-
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/nodejs.png"
-              alt=""
-            />
+            <BiLogoTailwindCss size={70} />
+            <p>Tailwind</p>
+          </div>
+        </div>
+        <div className="row Skillcontainer_skillicon1 m-0">
+          <div className="skill">
+            <FaNodeJs size={70} />
             <p>Nodejs</p>
           </div>
 
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/79/000000/bootstrap.png"
-              alt=""
-            />
-            <p>Bootstrap</p>
+            <SiMariadb size={70} />
+            <p>Mariadb</p>
           </div>
           <div className="skill">
-            <img
-              src="https://img.icons8.com/color/82/000000/mongodb.png"
-              alt=""
-            />
+            <BiLogoMongodb size={70} />
             <p>Mongo DB</p>
           </div>
           <div className="skill">
-            <img src="https://img.icons8.com/color/79/000000/sql.png" alt="" />
+            <DiMysql size={70} />
             <p>My SQl</p>
           </div>
-          <div className="skill">
-          <img src="https://img.icons8.com/color/79/000000/heroku.png" alt="" />
-          <p>Heroku</p>
-          </div>
-          <div className="skill">
-            <img src="https://img.icons8.com/color/79/000000/git.png" alt="" />
-            <p>Git</p>
-          </div>
-         
-        </div>
-  
 
-   
-    </div>
+          <div className="skill">
+            <BiLogoGraphql size={70} />
+            <p>GraphQL</p>
+          </div>
+        </div>
+      </div>
     </Element>
   );
 }
