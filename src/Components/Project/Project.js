@@ -1,12 +1,9 @@
 import "./Project.css";
 import { Element } from "react-scroll";
 import React from "react";
-import Cloud from "../Image/cloud.png";
 import Ecomm from "../Image/E-comm.png";
 import Recipe from "../Image/receipe.png";
-import urlShort from "../Image/urlshortener.png";
 import Videochat from "../Image/videochat.png";
-import invoice from "../Image/Invoicegenerator.png";
 import expense from "../Image/expense.png";
 import insta from "../Image/insta.PNG";
 
