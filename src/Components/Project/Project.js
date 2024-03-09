@@ -8,9 +8,17 @@ import urlShort from "../Image/urlshortener.png";
 import Videochat from "../Image/videochat.png";
 import invoice from "../Image/Invoicegenerator.png";
 import expense from "../Image/expense.png";
+import insta from "../Image/insta.PNG";
 
 function Project() {
   let Project_Data = [
+    {
+      url: "https://instagram-clone-eight-blue.vercel.app/",
+      title: "Instagram Clone app",
+      img: insta,
+      githublinkfe: "https://github.com/banupriyamohanraj/InstagramClone",
+      path: "/insta",
+    },
     {
       url: "https://cakes-site.netlify.app/",
       title: "E-commerce site",
@@ -27,13 +35,14 @@ function Project() {
       githublinkbe: "https://github.com/banupriyamohanraj/videochatapp-be",
       path: "/video",
     },
+
     {
-      url: "https://invoice-fe.netlify.app",
-      title: "Invoice Generator app",
-      img: invoice,
-      githublinkfe: "https://github.com/banupriyamohanraj/invoice-fe",
-      githublinkbe: "https://github.com/banupriyamohanraj/invoice-backend",
-      path: "/invoice",
+      url: "https://recipe-task-promise.netlify.app/",
+      title: "Recipe app",
+      img: Recipe,
+      githublinkfe: "https://github.com/banupriyamohanraj/recipe-task",
+
+      path: "/receipe",
     },
     {
       url: "https://quickexpensetrackerapp.netlify.app/",
@@ -42,14 +51,6 @@ function Project() {
       githublinkfe:
         "https://github.com/banupriyamohanraj/expenseTracker/tree/master",
       path: "/expenseTracker",
-    },
-    {
-      url: "https://recipe-task-promise.netlify.app/",
-      title: "Recipe app",
-      img: Recipe,
-      githublinkfe: "https://github.com/banupriyamohanraj/recipe-task",
-
-      path: "/receipe",
     },
   ];
 
