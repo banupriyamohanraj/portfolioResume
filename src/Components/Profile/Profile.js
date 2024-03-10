@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 
 function Profile() {
   const pdf =
-    "https://drive.google.com/file/d/1o8gx3tSNfwCpAc887q6y-iSeymB-tuEy/view?usp=sharing";
+    "https://drive.google.com/file/d/1LaWqYLCsU_FJWDZddWjqg15LBIuUY7b0/view?usp=sharing";
   return (
     <Element name="about">
       <div className="container-fluid Profile__container">
